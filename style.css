@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom; 
+    background-color: hsl(225, 100%, 94%);
+    height: 350px;
+    width: 100%;
+}
+.card{
+    margin: 0 auto;
+    background-color: hsl(0, 0%, 100%);
+    width: 300px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+    margin-bottom: 40px; 
+}
+.card .container{
+    margin-top: 50px;
+}
+.card .container .image img{
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    width: 300px;
+    /* height: 200px; */
+
+}
+
+
+.card .container .discription{
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.card .container .discription h1{
+font-size: 20px;
+padding: 20px;
+font-weight: 800;
+color: hsl(223, 47%, 23%);
+}
+
+.card .container .discription p{
+    font-size: 14px;
+    font-weight: 600;
+    color:  hsl(224, 23%, 55%);
+    padding-left: 0px;
+    padding-right:0px;
+}
+
+.card .container .plan{
+    display: flex;
+    margin: 10px;
+    width: 270px;
+    background-color:  hsl(225, 100%, 98%);
+    border-radius: 10px;
+}
+
+.card .container .plan .left{
+    margin: 10px;
+    display: flex;
+}
+
+.card .container .plan .left img{
+    width: 40px;
+    margin: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.card .container .plan .left .annual-plan{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 40px;
+
+}
+
+
+.card .container .plan .left .annual-plan h2{
+    font-size: 12px;
+}
+
+.card .container .plan .left .annual-plan h3{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(224, 23%, 55%);
+}
+
+
+
+.card .container .plan .right{
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+
+.card .container .plan .right a{
+    font-size: 12px;
+    font-weight: 700;
+    color:  hsl(245, 75%, 52%);
+}
+
+
+.card .container button{
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 10px;
+    width: 270px;
+    height: 40px;
+    margin-left: 10px;
+    margin: 15px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.card .container button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    font-weight: 600;
+}
+.card .container h4{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 800;
+    color:hsl(224, 23%, 55%);
+}
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
